@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.gradient-icon,
+.gradient-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 509px;
+  height: 614.03px;
+  opacity: 0.8;
+}
+.gradient-icon1 {
+  top: 239.65px;
+  left: 953.94px;
+  width: 424.06px;
+  height: 410.35px;
+  opacity: 0.6;
+}
+.cross-breeds1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 512px);
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.home-div2,
+.projects-div2 {
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 89px);
+  display: inline-block;
+}
+.projects-div2 {
+  left: calc(50% - -12px);
+  cursor: pointer;
+}
+.vector-icon2 {
+  position: absolute;
+  top: 32.5px;
+  left: calc(50% - 98.5px);
+  width: 68px;
+  height: 1px;
+}
+.iconfont-awesome-freesolidm2 {
+  position: absolute;
+  height: 55.56%;
+  width: 1.95%;
+  top: 19.44%;
+  right: 0;
+  bottom: 25%;
+  left: 98.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.nav-div2 {
+  position: absolute;
+  top: 52px;
+  left: calc(50% - 513px);
+  width: 1024px;
+  height: 36px;
+}
+.halo-were-group-of1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.designer-span1 {
+  background: linear-gradient(90deg, #f59e0b, #ef4444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.span {
+  color: var(--color-gray-100);
+}
+.and-span1 {
+  color: #1e2a53;
+}
+.developer-span1 {
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.friends2 {
+  margin: 0;
+}
+.halo-were-group-of-designer1 {
+  position: absolute;
+  top: 152px;
+  left: calc(50% - 513px);
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  color: #632861;
+}
+.this-is-the-place-where-we-gon1 {
+  position: absolute;
+  top: 338px;
+  left: calc(50% - 513px);
+  line-height: 24px;
+  display: inline-block;
+  width: 387px;
+}
+.rectangle-div3 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 93.5px);
+  border-radius: var(--br-sm);
+  background-color: #a1dce9;
+  width: 187px;
+  height: 48px;
+}
+.path-to-projects1 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% - 80.5px);
+  display: inline-block;
+}
+.iconfont-awesome-freesolidl1 {
+  position: absolute;
+  top: 17px;
+  left: calc(50% - -58.5px);
+  border-radius: var(--br-sm);
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.button-div1 {
+  position: absolute;
+  top: 458px;
+  left: calc(50% - 513px);
+  width: 187px;
+  height: 48px;
+  cursor: pointer;
+  color: var(--color-gray-300);
+}
+.saly-13-icon1 {
+  position: absolute;
+  top: 152px;
+  left: calc(50% - -48px);
+  width: 467px;
+  height: 467px;
+  object-fit: cover;
+}
+.sun-icon {
+  position: absolute;
+  top: 56px;
+  left: 1185px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-2">
+      <img class="eclipse-icon2" alt="" src="public/eclipse2.svg" /><img
+        class="eclipse-icon3"
+        alt=""
+        src="public/eclipse3.svg"
+      />
+      <div class="nav-div1">
+        <b class="cross-breeds">Cross Breeds</b>
+        <div class="home-div1">Home</div>
+        <div class="projects-div1" id="projectsText">Projects</div>
+        <img class="vector-icon1" alt="" src="public/vector-1.svg" /><img
+          class="iconfont-awesome-freesolidm1"
+          alt=""
+          src="public/iconfont-awesome-freesolidmmoon1.svg"
+          id="iconFontAwesomeFreeSolidM"
+        />
+      </div>
+      <b class="halo-were-group-of-designer"
+        ><p class="halo-were-group-of"><span>Halo! We’re group of</span></p>
+        <p class="halo-were-group-of">
+          <span class="designer-span">Designer</span
+          ><span class="and-span"> and </span
+          ><span class="developer-span">Developer</span>
+        </p>
+        <p class="friends">
+          <span class="developer-span">friends . . .</span>
+        </p></b
+      >
+      <div class="this-is-the-place-where-we-gon">
+        <p class="halo-were-group-of">
+          This is the place where we gonna showcase
+        </p>
+        <p class="friends">our works , projects and our own lectures ...</p>
+      </div>
+      <div class="button-div" id="buttonContainer">
+        <div class="rectangle-div2" id="rectangleRectangle"></div>
+        <div class="path-to-projects">Path to Projects</div>
+        <img
+          class="iconfont-awesome-freesolidl"
+          alt=""
+          src="public/iconfont-awesome-freesolidllongarrowaltright.svg"
+        />
+      </div>
+      <img class="saly-13-icon" alt="" src="public/saly13@2x.png" />
+    </div>
+
+    <script>
+      var projectsText = document.getElementById("projectsText");
+      if (projectsText) {
+        projectsText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-3.html";
+        });
+      }
+      
+      var iconFontAwesomeFreeSolidM = document.getElementById(
+        "iconFontAwesomeFreeSolidM"
+      );
+      if (iconFontAwesomeFreeSolidM) {
+        iconFontAwesomeFreeSolidM.addEventListener("click", function (e) {
+          window.location.href = "./desktop-1.html";
+        });
+      }
+      
+      var rectangleRectangle = document.getElementById("rectangleRectangle");
+      if (rectangleRectangle) {
+        rectangleRectangle.addEventListener("click", function (e) {
+          window.location.href = "./desktop-3.html";
+        });
+      }
+      
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./desktop-3.html";
+        });
+      }
+      </script>
+  </body>
+</html>

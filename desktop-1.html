@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <img class="gradient-icon" alt="" src="public/gradient.svg" /><img
+        class="gradient-icon1"
+        alt=""
+        src="public/gradient1.svg"
+      />
+      <div class="nav-div2">
+        <b class="cross-breeds1">Cross Breeds</b>
+        <div class="home-div2">Home</div>
+        <div class="projects-div2" id="projectsText">Projects</div>
+        <img class="vector-icon2" alt="" src="public/vector-12.svg" /><img
+          class="iconfont-awesome-freesolidm2"
+          alt=""
+          src="public/iconfont-awesome-freesolidmmoon1.svg"
+        />
+      </div>
+      <b class="halo-were-group-of-designer1"
+        ><p class="halo-were-group-of1"><span>Halo! We’re group of</span></p>
+        <p class="halo-were-group-of1">
+          <span class="designer-span1">Designer</span><span class="span"> </span
+          ><span class="and-span1">and</span><span class="span"> </span
+          ><span class="developer-span1">Developer</span>
+        </p>
+        <p class="friends2">
+          <span class="developer-span1">friends . . .</span>
+        </p></b
+      >
+      <div class="this-is-the-place-where-we-gon1">
+        <p class="halo-were-group-of1">
+          This is the place where we gonna showcase
+        </p>
+        <p class="friends2">our works , projects and our own lectures ...</p>
+      </div>
+      <div class="button-div1" id="buttonContainer">
+        <div class="rectangle-div3"></div>
+        <div class="path-to-projects1">Path to Projects</div>
+        <img
+          class="iconfont-awesome-freesolidl1"
+          alt=""
+          src="public/iconfont-awesome-freesolidllongarrowaltright1.svg"
+        />
+      </div>
+      <img class="saly-13-icon1" alt="" src="public/saly13@2x.png" /><img
+        class="sun-icon"
+        alt=""
+        src="public/sun.svg"
+        id="sunIcon"
+      />
+    </div>
+
+    <script>
+      var projectsText = document.getElementById("projectsText");
+      if (projectsText) {
+        projectsText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-3.html";
+        });
+      }
+      
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./desktop-3.html";
+        });
+      }
+      
+      var sunIcon = document.getElementById("sunIcon");
+      if (sunIcon) {
+        sunIcon.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>
